@@ -13,18 +13,18 @@
   <% end %>
 
   <div class="form-group">
-  名前:
-  <%= f.text_field :name, class: 'form-control' %>
+    <label for="message_name" class="control-label">名前:</label>
+    <%= f.text_field :name, class: 'form-control' %>
   </div>
   <div class="form-group">
-  内容:
-  <%= f.text_area :body, class: 'form-control' %>
+    <label for="message_body" class="control-label">内容:</label>
+    <%= f.text_area :body, class: 'form-control' %>
   </div>
   <div class="form-group">
-  年齢:
-  <%= f.text_field :age, class: 'form-control' %>
+    <label for="message_age" class="control-label">年齢:</label>
+    <%= f.text_field :age, class: 'form-control' %>
   </div>
   <div class="form-group">
-  <%= f.submit class: "btn btn-sm btn-primary" %>
+    <%= f.submit class: "btn btn-sm btn-primary" %>
   </div>
 <% end %>
